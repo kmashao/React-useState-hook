@@ -11,11 +11,11 @@ function App() {
     });
   }
 
+  setInterval(getTime, 1000);
 
   return (
     <div className="container">
       <h1>{currentTime}</h1>
-      <button onClick={getTime}>get time</button>
     </div>
   );
 }
